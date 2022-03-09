@@ -209,8 +209,14 @@ footer {
 .BTS {
     margin-bottom: 5%;
 }
+.bts_sio {
+    margin-bottom: 5%;
+}
 .matieres {
-    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.options .accordion-item {
+    margin-top: 0px;
 }
 .accordeon2 {
     margin: 0;
