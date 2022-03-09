@@ -1,0 +1,307 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>MON PROFIL</title>
+        
+        <!-- Nécessaire Boostrap -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel='stylesheet' type='text/css' media='screen' href="css/style.css">
+
+        <!-- Icones -->
+        <script src="https://kit.fontawesome.com/98aec3d11a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Barre de navigation -->
+        <div id="navbarre">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a href="index.html">Accueil</a></li>
+                <li class="nav-item"><a href="monprofil.html">Mon profil</a></li>
+                <li class="nav-item"><a href="apprentissage.html">Apprentissage personnel</a></li>
+                <li class="nav-item"><a href="btssio.html">BTS SIO</a></li>
+                <li class="nav-item"><a href="documentations.html">Documentations</a></li>
+                <li class="nav-item"><a href="projets.html">Projets</a></li>
+                <li class="nav-item"><a href="veilles.html">Veilles</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/kathleen-rakotoson-87398b1a4" target="_blank"><i class="fab fa-linkedin"></i> Kathleen Rakotoson</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="mailto:karakotoson@gmail.com" target ="_blank"><i class="fas fa-at"></i> karakotoson@gmail.com</a>
+                        </li>
+                        <li class="telephone" style="margin-bottom: 5%; margin-top: 3%;">
+                            <i class="fas fa-phone"></i> 06.12.26.00.70
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Présentation, parcours & profil -->
+        <div class="container-fluid profil">
+            <div class="intro-profil">
+                <div class="row align-items-center">
+                    <div class="col-md-4 presentation">
+                        <img src="img/moi.jpg">
+                    </div>
+                    <div class="col-md-8">
+                        <h1><i class="fas fa-user-circle"></i> Mon Profil</h1><br>
+                        <p>
+                            Je m'appelle Kathleen RAKOTOSON.<br>
+                            Je suis passionnée par la programmation, le développement informatique, la création de sites et applications.<br>
+                            Après m'être essayée à plusieurs cursus dans différents domaines, j'ai choisi ce BTS car il me permettra d'atteindre mon objectif rapidement, comme un tramplin.<br>
+                            J'ai pour projet professionnel de continuer mes études dans le domaine du développement. Par la suite, je souhaite continuer au sein de l'entreprise dans laquelle j'ai effectué mon alternance et avec laquelle nous avons déjà évoqué des perspectives d'évolutions concernant mon poste.<br>
+                            Lorsque j'aurais acquis suffisamment de connaissances, j'aimerais développer ma propre application de gestion d'entreprise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item formations">
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                            <h3 style="padding:0 0 0 20px;"><i class="fas fa-graduation-cap"></i>  Mes formations</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordeon2">
+                            <div class="options-couleur">
+                                <div class="accordion accordion-flush" id="accordionFlushExample5">
+                                    <div class="row align-items-center fac">
+                                        <div class="col-md-6">
+                                            <img src="img/fac.jpg">
+                                        </div>
+                                        <div class="col-md-6" style="margin-top: 2%;">
+                                            <h3>Licence de Physique | 2015 - 2016</h3>
+                                            <p>
+                                                Université d'Evry Val d'Essonne - EVRY<br>
+                                                Première année
+                                            </p>
+                                            <h3>Licence d'Informatique | 2016 - 2019</h3>
+                                            <p>
+                                                Université d'Evry Val d'Essonne - EVRY<br>
+                                                Première année
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center village">
+                                        <div class="col-md-6">
+                                            <img src="img/village.jpg">
+                                        </div>
+                                        <div class="col-md-6" style="margin-top: 2%;">
+                                            <h3>Etude de Développement | 2019 - 2020</h3>
+                                            <p>
+                                                Village de l'Emploi - CLICHY<br>
+                                                Option Nouvelles Technologies
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center itis">
+                                        <div class="col-md-6">
+                                            <img src="img/itis.jpg">
+                                        </div>
+                                        <div class="col-md-6" style="margin-top: 2%;">
+                                            <h3>BTS Services Informatiques aux Organisations (SIO) | 2020 - 2022</h3>
+                                            <p>
+                                                CFA ITIS Formation - EVRY<br>
+                                                Option Solutions Logicielles et Applications Métiers (SLAM)
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center CV">
+                                        <h5>Vous pouvez retrouver mes formations (<i>hors domaine Informatique</i>) sur <a href="fichiers/CV.pdf" target="_blank">mon CV</a></h5>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item experiencesprofessionnelles">
+                    <h2 class="accordion-header" id="flush-heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                            <h3 style="padding:0 0 0 20px;"><i class="fas fa-briefcase"></i>  Mes expériences professionnelles</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordeon2">
+                            <div class="options-couleur">
+                                <div class="accordion accordion-flush" id="accordionFlushExample6">
+                                    <div class="row align-items-center quadrifoglio">
+                                        <div class="col-md-6">
+                                            <img src="img/none.jpg">
+                                        </div>
+                                        <div class="col-md-6" style="margin-top: 2%;">
+                                            <h3>Stage de découverte</h3>
+                                            <p>
+                                                Entreprise Quadrifoglio, ARPAJON | Décembre 2014, Stage de découverte de 3ème<br>
+                                                Assistante Administrative, Création de supports pédagogiques, Secrétariat informatique
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center anael">
+                                        <div class="col-md-6">
+                                            <img src="img/anael.jpg">
+                                        </div>
+                                        <div class="col-md-6" style="margin-top: 2%;">
+                                            <h3>Contrat en alternance</h3>
+                                            <p>
+                                                ANAEL MS, Corbeil Essonne | Avril 2021 - Avril 2022<br>
+                                                Maintenance Informatique, Création de documentations, Formations
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center CV">
+                                        <h5>Vous pouvez retrouver mes expériences professionnelles (<i>hors domaine Informatique</i>) sur <a href="fichiers/CV.pdf" target="_blank">mon CV</a></h5>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item competences">
+                    <h2 class="accordion-header" id="flush-heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                            <h3 style="padding:0 0 0 20px;"><i class="fas fa-tasks"></i> Mes compétences</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordeon2">
+                            <div class="options-couleur">
+                                <div class="accordion accordion-flush" id="accordionFlushExample7">
+                                    <div class="row langages" style="text-align: left;">
+                                        <div class="col-md-6" style="margin-bottom: 2%;">
+                                            <h5 style="padding:0 0 0 20px;">Langages :</h5>
+                                            <p>
+                                                ~ JavaScript
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                            </div>
+                                            <p>
+                                                ~ Python
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                            </div>
+                                            <p>
+                                                ~ PHP
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                            </div>
+                                            <p>
+                                                ~ MySQL
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                                            </div>
+                                            <p>
+                                                ~ C#
+                                            </p>   
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                            </div>
+                                            <p>
+                                                ~ C++
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h5 style="padding:0 0 0 20px;">Autres langages :</h5>
+                                            <p>
+                                                ~ html
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                            </div>
+                                            <p>
+                                                ~ CSS
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                            </div>
+                                            <p>
+                                                ~ Algorithmie
+                                            </p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row outils-langues" style="text-align: left;">
+                                        <div class="col-md-6 ">
+                                            <h5 style="padding:0 0 0 20px;">Outils :</h5>
+                                            <p>~ CodeBlocks<br>~ Processing<br>~ VisualStudio Code<br>~ VisualStudio<br>~ GitHub<br>~ GitMind<br>~ JMerise<br>~ Pack Office</p>
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <h5 style="padding:0 0 0 20px;">Langues :</h5>
+                                            <p>~ Anglais : Bon niveau<br>~ Espagnol : Bon niveau</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item interets">
+                    <h2 class="accordion-header" id="flush-heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                            <h3 style="padding:0 0 0 20px;"><i class="fas fa-bookmark"></i>  Mes centres d'intérêt</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordeon2">
+                            <div class="options-couleur">
+                                <div class="accordion accordion-flush" id="accordionFlushExample5">
+                                    <div class="row align-items-center image-interets">
+                                        <div class="col-md-6 benevolat" style="margin-bottom: 2%;">
+                                            <p>Bénévolat</p>
+                                            <img src="img/assoc.jpg">
+                                        </div>
+                                        <div class="col-md-6 lecture">
+                                            <p>Lecture (romans, mangas, bandes dessinées...)</p>
+                                            <img src="img/livre.jpg">
+                                        </div>
+                                        <div class="row align-items-center CV">
+                                            <div class="col-md-12">
+                                                <h4><i class="fas fa-info-circle"></i> Informations complémentaires :</h4>
+                                                <p>
+                                                    <a href="fichiers/CV.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Mon CV</i></a><br>
+                                                    <a href="https://github.com/Kathleen91" target="_blank"><i class="fab fa-github"></i> Mon Github</i></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back-to-top bouton -->
+        <div id="back-to-top">
+            <a href="#banner" class="back-to-top d-flex align-items-center justify-content-center active"><i class="fas fa-arrow-up"></i></a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="col-sm-12 fixed-bottom text-center">
+            &copy; Copyright 2020-2022. <span><a href="mentionslegales.html" style="color:#FFFFFF">Mentions légales.</a></span> Tous droits réservés. 
+        </footer>
+
+        <!-- Nécessaire Bootsrap -->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    </body>
+</html>
