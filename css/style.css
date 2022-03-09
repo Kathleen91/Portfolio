@@ -83,7 +83,7 @@ body {
 }
 
     /* Contenus */
-.container-fluid {
+/* .container-fluid {
     border-color: rgb(58,53,117);
     border-style: solid;
     border-width: 3px;
@@ -94,11 +94,12 @@ body {
     margin-bottom: 3%;
     margin-left:3%;
     margin-right: 3%;
+    padding: 3% 1%;
     border-color: rgb(58,53,117);
     border-style: solid;
     border-width: 3px;
     padding: 3% 1%;
-}
+} */
 
     /* Back-to-top Bouton */
 .back-to-top {
@@ -161,11 +162,16 @@ footer {
 /* Mon profil */
 .intro-profil {
     color: rgb(58, 24, 138);
-    text-align: center;
     font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
 }
 .presentation img {
-    width: 100%;
+    width: 75%;
+    margin-left: 3%;
+}
+.intro-profil p {
+    margin-left: 3%;
 }
 .profil {
     text-align: center;
@@ -174,19 +180,13 @@ footer {
 .profil .accordion-item {
     margin-top: 3%;
 }
+.fac, .village, .itis, .quadrifoglio, .anael, .langages, .outils-langues, .benevolat, .lecture, .CV {
+    padding: 1% 1%;
+}
 .image-interets img {
+    position: relative;
     width: 600px;
     height: 400px;
-}
-#accordionFlushExample6 img {
-    position: relative;
-    width: 75%;
-    height: 50%;
-}
-#accordionFlushExample5 img {
-    position: relative;
-    width: 75%;
-    height: 50%;
 }
 
 
@@ -362,53 +362,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-/* Contact */
-.intro-contact {
-    color: rgb(58, 24, 138);
-    text-align: center;
-    font-weight: bold;
-}
-.centre {
-    justify-content: center;
-    align-items: center;
-}
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.contact img {
-    border-radius:7px;
-}
-.formulaire {
-    border-color: rgb(26, 22, 63);
-}
-.nopadding {
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-#name {
-    margin-right: 10px;
-}
-.coordonnees {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    width: 350px;
-}
-.circle {
-    width: 350px;
-    height: 150px;
-    background-color: rgb(182, 177, 238);
-    text-align: center;
-    border-radius: 350px;
-    padding: 1%;
-    font-weight: 600;
-}
-.coordonnees h3 {
-    text-decoration: underline;
 }
