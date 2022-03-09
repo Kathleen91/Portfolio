@@ -178,18 +178,19 @@ footer {
     color: rgb(58, 24, 138);
     font-weight: bold;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 2%; 
     margin-bottom: 3%;
 }
 .apprentissage {
     color: rgb(58, 24, 138);
     margin-bottom: 5%;
 }
+.videos .accordion-item, .liens .accordion-item {
+    margin-top: 0px;
+}
 .videos {
     margin-top: 3%;
-}
-.liens {
-    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -210,7 +211,6 @@ footer {
 }
 .matieres {
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 .accordeon2 {
     margin: 0;
@@ -244,7 +244,7 @@ footer {
     margin-bottom: 3%;
 }
 .activites, .accordion-item {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 
