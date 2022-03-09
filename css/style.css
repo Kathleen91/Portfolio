@@ -162,9 +162,11 @@ footer {
 /* Mon profil */
 .intro-profil {
     color: rgb(58, 24, 138);
+    color: rgb(58, 24, 138);
     font-weight: bold;
-    margin-top: 2%;
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 .presentation img {
     width: 75%;
@@ -193,8 +195,10 @@ footer {
 /* Apprentissage personnel */
 .intro-apprentissage {
     color: rgb(58, 24, 138);
-    text-align: center;
     font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 .apprentissage {
     color: rgb(58, 24, 138);
@@ -215,8 +219,9 @@ footer {
 }
 .intro-sio {
     color: rgb(58, 24, 138);
+    font-weight: bold;
     text-align: center;
-    font-weight: bold; 
+    margin-top: 2%;
     margin-bottom: 3%;
 }
 .BTS {
@@ -248,24 +253,16 @@ footer {
 /* Documentations */
 .docs {
     text-align: center;
+    margin-bottom: 5%;
 }
 .intro-doc {
     color: rgb(58, 24, 138);
-    text-align: center;
     font-weight: bold;
-}
-#accordion-proof {
-    margin-top: 3%;
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
-#accordion-proof .accordion-item {
-    margin-top: 3%;
-}
-#accordion-proof2 {
-    margin-top: 3%;
-    text-align: center;
-}
-#accordion-proof2 .accordion-item {
+.activites, .accordion-item {
     margin-top: 3%;
 }
 
@@ -273,8 +270,10 @@ footer {
 /* Projets */
 .intro-projet {
     color: rgb(58, 24, 138);
-    text-align: center;
     font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 .projet {
     display: flex;
