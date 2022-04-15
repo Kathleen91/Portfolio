@@ -249,7 +249,9 @@ footer {
 .activites, .accordion-item {
     margin-top: 2%;
 }
-
+.invisible {
+    visibility: hidden !important;
+}
 
 /* Projets */
 .intro-projet {
